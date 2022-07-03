@@ -1,2 +1,2 @@
 # learn-frontend
-Front-end development 
+Front-end development with react and bootstrap
