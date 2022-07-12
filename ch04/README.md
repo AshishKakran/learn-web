@@ -1,41 +1,5 @@
-<!DOCTYPE html>
-<head> 
-	<meta charset = "utf-8">
-	<title> Chapter 1 </title>
-	<style type="text/css">
-		body{
-			background-color: #faf2e4;
-			margin: 0 10%;
-			font-family: sans-serif;
-		}
-		h1 {
-			text-align: center;
-			font-family: serif;
-			font-weight: normal;
-			text-transform: uppercase;
-			border-bottom: 1px solid #57b1dc;
-			margin-top: 30px;
-		}
-	</style>
-</head>
+# Basic structure of a web page
 
-<body>
-
-<h1> <img src="blackgoose.png" alt="logo"> <br>Black Goose Bistro</h1>
-
-<h2> The Restaurant </h2> <! block element>
-
-<p> The Black Goose Bistro offers casual lunch and dinner fare in a relaxed atmosphere. The menu changes regularly to highlight the freshest local ingredients. </p>
-
-<h2> Catering </h2>
-<p>You have fun. <em> We'll handle the cooking.</em> <!inline element> Black Goose Catering can handle events from snacks for a meetup to elegant corporate fundraisers. </p>
-
-<h2> Location and Hours </h2>
-<p>
-Seekonk, Massachusetts;
-Monday through Thursday 11am to 9pm; Friday and Saturday, 11am to midnight
-</p>
-  
-
-</body>
-</html>
+<ul>
+	<li> basic structure - <a href="index.html"> blackgoose </a> </li>
+</ul>  
