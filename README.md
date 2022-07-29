@@ -19,6 +19,8 @@ web application development
 				<li> <a href="ch04/index.html"> Black Goose </a> </li>
 				<li> <a href="ch05/bistro_news.html"> bistro news </a> </li>
 				<li> <a href="ch06/README.md"> links summary </a> </li>
+				<li> <a href="ch07/README.md"> Adding images </a> </li>
+				<li> <a href="ch08/README.md"> Marking up tables </a> </li>
 			 </ul>
 		</td>
 	</tr>
