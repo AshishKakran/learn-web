@@ -13,6 +13,8 @@ web application development
 				<li>Basic structure </li>
 				<li>Marking up text </li>
 				<li>Adding links </li>
+				<li>Marking up tables <li>
+				<li>HTML forms <li>
 			 </ul>
 		</td>
 		<td> <ul>
