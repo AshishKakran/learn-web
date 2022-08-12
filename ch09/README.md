@@ -34,34 +34,34 @@
    - disabled
 
    **option**
-    - disabled
-    - label
-    - selected
-    - value
+   - disabled
+   - label
+   - selected
+   - value
 
    **output**
-     - for
-     - from
-     - name
+    - for
+    - from
+    - name
 
    **progress**
 
    **select**
-     - autofocus
-     - disabled
-     - form
-     - name
-     - size
+    - autofocus
+    - disabled
+    - form
+    - name
+    - size
 
    **textarea**
-     - autocomplete
-     - autofocus
-     - cols,rows
-     - form
-     - maxlength/minlength
-     - name
-     - placeholder
-     - wrap="hard|soft"
+    - autocomplete
+    - autofocus
+    - cols,rows
+    - form
+    - maxlength/minlength
+    - name
+    - placeholder
+    - wrap="hard|soft"
 
 
 ![example](pizza_final.html)
