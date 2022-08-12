@@ -39,21 +39,21 @@
     - selected
     - value
 
-    **output**
+   **output**
      - for
      - from
      - name
 
-     **progress**
+   **progress**
 
-     **select**
+   **select**
      - autofocus
      - disabled
      - form
      - name
      - size
 
-     **textarea**
+   **textarea**
      - autocomplete
      - autofocus
      - cols,rows
