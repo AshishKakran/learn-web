@@ -14,8 +14,8 @@ web application development
 				<li>Marking up text </li>
 				<li>Adding links </li>
 				<li>Adding images </li>
-				<li>Marking up tables <li>
-				<li>HTML forms <li>
+				<li>Marking up tables </li>
+				<li>HTML forms </li>
 				<li>Embedded Media </li>
 			 </ul>
 		</td>
