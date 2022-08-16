@@ -9,7 +9,9 @@ web application development
 		<th> Implementation </th>
 	</tr>
 	<tr>
-		<td> <ul>
+		<td> 
+			HTML
+			<ul>
 				<li>Basic structure </li>
 				<li>Marking up text </li>
 				<li>Adding links </li>
@@ -30,5 +32,21 @@ web application development
 			 </ul>
 		</td>
 	</tr>
+	<tr>
+		<td>
+		CSS
+		<ul>
+			<li> Introduction to CSS </li>
+			<li> Formatting Text </li>
+		</ul>
+		</td>
+		<td>
+			<ul>
+			<li> <a href="ch11/README.md"> structure of sheets </a> </li>
+			<li> <a href="ch12/README.md"> Formatting text </a> </li>
+			</ul>
+		</td>
+	</tr>
+
 
 </table>
