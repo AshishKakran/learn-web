@@ -41,4 +41,23 @@
 **specificity**
 - inline styles < id < class < individual elements selectors
 
+**Text line adjustments**
+- line-height
+- text-indent (-ve value for hanging indent)
+- text-align (left|right|center|justify|start|end)
+
+**Underlines and other "decorations"**
+- text-decoration (underline|overline|line-through|blink|none)
+- text-transform (none|capitalize|lowercase|uppercase|full-width)
+- letter-spacing
+- word-spacing
+- text-shadow
+
+
+**changing list bullets and numbers**
+- list-style-type
+- list-style-position
+- list-style-image
+- list-style
+
 
