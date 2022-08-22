@@ -44,6 +44,7 @@ web application development
 			<ul>
 			<li> <a href="ch11/README.md"> structure of sheets </a> </li>
 			<li> <a href="ch12/README.md"> Formatting text </a> </li>
+			<li> <a href="ch13/README.md"> colors and backgrounds </a> </li>
 			</ul>
 		</td>
 	</tr>
