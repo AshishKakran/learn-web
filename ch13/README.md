@@ -36,3 +36,20 @@
 - element[attribute~="value"] (contains logic)
 - ~ for contain, ^ for first part , $ for last part, * for any part , | for variation
 
+**Background images**
+ - background-image: url (can be added to any element, no inherit)
+ - background-repeat: repeat | no-repeat | repeat -x/y | space | round
+ - background-position: length | percentage | left |center | right|top|bottom
+ - background-attachment : scroll | fixed | local
+ - background-size: length | percentage| auto | cover | contain
+ - background (shorthand property) (handy for multiple backgrounds)
+
+**gradients** ( can be applied to background,border-images, list-style-images)
+- linear gradient (position, colors)
+- radial gradient (position, color,shape, size)
+- repeating-linear-gradient
+
+**external style sheets**
+- link
+- import
+- modular design 
