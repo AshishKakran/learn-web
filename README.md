@@ -38,6 +38,8 @@ web application development
 		<ul>
 			<li> Introduction to CSS </li>
 			<li> Formatting Text </li>
+			<li> Colors and Backgrounds </li>
+			<li> Thinking inside the Box </li>
 		</ul>
 		</td>
 		<td>
@@ -45,6 +47,7 @@ web application development
 			<li> <a href="ch11/README.md"> structure of sheets </a> </li>
 			<li> <a href="ch12/README.md"> Formatting text </a> </li>
 			<li> <a href="ch13/README.md"> colors and backgrounds </a> </li>
+			<li> <a href="ch14/README.md"> The Box model of CSS </a> </li>
 			</ul>
 		</td>
 	</tr>
