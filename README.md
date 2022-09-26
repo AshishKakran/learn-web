@@ -40,6 +40,7 @@ web application development
 			<li> Formatting Text </li>
 			<li> Colors and Backgrounds </li>
 			<li> Thinking inside the Box </li>
+			<li> Floating and Positioning </li>
 		</ul>
 		</td>
 		<td>
@@ -48,6 +49,7 @@ web application development
 			<li> <a href="ch12/README.md"> Formatting text </a> </li>
 			<li> <a href="ch13/README.md"> colors and backgrounds </a> </li>
 			<li> <a href="ch14/README.md"> The Box model of CSS </a> </li>
+			<li> <a href="ch15/README.md"> CSS float and positioning </a> </li>
 			</ul>
 		</td>
 	</tr>
