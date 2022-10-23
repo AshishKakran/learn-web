@@ -30,3 +30,4 @@
 
  **Changing the order of flex items**
  - order (integer) (smallest to largest)
+ - spacing caveats
