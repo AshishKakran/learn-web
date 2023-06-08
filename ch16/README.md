@@ -31,3 +31,16 @@
  **Changing the order of flex items**
  - order (integer) (smallest to largest)
  - spacing caveats
+
+ **setting up grid areas**
+ - diplay: grid;
+ - grid-template-rows: [row-names] grid-units(px, em, fr);
+ - grid-template-columns: [column-names] units
+ - grid-template-areas: "row-wise names";
+ - repeat, minmax(min, max), min-content, max-content,auto
+
+ - grid: [start line name] "area names" <track size> [end line name]
+
+**placing items in grid**
+
+
