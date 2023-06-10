@@ -24,7 +24,7 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   display: grid;
-  grid-template-rows: 3em 20px [main-start] 150px 300px 5em [main-end];
+  grid-template-rows: 3em 20px [main-start] 150px auto 5em [main-end];
   grid-template-columns: [main-start] 1fr [main-end] repeat(3, 20px 150px);
 
 	
@@ -50,6 +50,12 @@ a {
 nav, footer {
   font-family: verdana, sans-serif;
   background-color: #783F27;
+}
+
+nav {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column: 1 / 8;
 }
 nav ul li a:link, nav ul li a:visited {
   color: #F9AB33;
@@ -87,7 +93,10 @@ main {
   padding: 1em;
   border: double 4px #EADDC4;
   border-radius: 25px;
+  grid-row: main-start / main-end;
+  grid-column: main-start / main-end;
 }
+
 
 
 /* misc styles */
@@ -98,11 +107,26 @@ figure {
    /* clears browser styles for figures */
 }
 
+#figC{
+  grid-row: 3 / 4;
+  grid-column: span 1 / -1;
+}
+
+#figA {
+  grid-area: 3 / 3 / 4 / 4;
+}
+#figB {
+  grid-area: 3 / 5 / 4 / 6;
+}
+
+
 footer {
   color: #EADDC4;
   text-align: center;
   font-size: .8em;
   padding: .5em;
+  grid-row: 5 / 6;
+  grid-column: 3 / -1;
 }
 
 </style>

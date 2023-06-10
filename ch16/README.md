@@ -43,4 +43,36 @@
 
 **placing items in grid**
 
+* positioning using lines (applies to grid items)
+  -(grid-row-start|end, grid-column-start|end) (values: auto | grid line | span number | span 'line name' | number 'line name')
+  - grid-row : start line / end line
+  - grid-column: start line / end line
+
+* positioning by area (applies to grid items)
+ - grid-area (area name | 1 to 4 line identifiers in counterclockwise)
+
+**Implicit grid behaviour**
+
+* grid items flow into grid sequentially by default
+* named area implicitly generates grid lines with "-start" and "-end" suffixes and vice versa
+ 
+* creation of row and column tracks on the fly to accomodate items
+ - grid-auto-rows|columns (values: list of track sizes)
+
+* flow direction and density
+ - grid-auto-flow (values: row or column | dense (optional))
+ - grid: autoflow
+
+**spacing and alignment**
+
+* spacing between tracks (gutters)
+ - grid-row-gap| grid-column-gap
+ - grid-gap
+* grid and item alignment
+ - aligning individual items (justify-self, align-self)
+ - aligning all the items in a grid (justify-items, align-items)
+ - aligning tracks in the grid container (jusitfy-content, align-content)
+
+
+
 
