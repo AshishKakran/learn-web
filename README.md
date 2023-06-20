@@ -42,6 +42,8 @@ web application development
 			<li> Thinking inside the Box </li>
 			<li> Floating and Positioning </li>
 			<li> Flexbox and Grid layout </li>
+			<li> Responsive web Design </li>
+			<li> Transition, transforms and Animation </li>
 		</ul>
 		</td>
 		<td>
@@ -53,6 +55,7 @@ web application development
 			<li> <a href="ch15/README.md"> CSS float and positioning </a> </li>
 			<li> <a href="ch16/README.md"> CSS Flexbox and Grid </a> </li>
 			<li> <a href="ch17/README.md"> Responsive web design </a> </li>
+			<li> <a href="ch18/README.md"> Transition, transforms and Animation </a> </li>
 			</ul>
 		</td>
 	</tr>
