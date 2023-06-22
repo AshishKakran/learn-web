@@ -44,6 +44,7 @@ web application development
 			<li> Flexbox and Grid layout </li>
 			<li> Responsive web Design </li>
 			<li> Transition, transforms and Animation </li>
+			<li> More CSS techniques </li>
 		</ul>
 		</td>
 		<td>
@@ -56,6 +57,7 @@ web application development
 			<li> <a href="ch16/README.md"> CSS Flexbox and Grid </a> </li>
 			<li> <a href="ch17/README.md"> Responsive web design </a> </li>
 			<li> <a href="ch18/README.md"> Transition, transforms and Animation </a> </li>
+			<li> <a href="ch19/README.md"> More CSS techniques </a> </li>
 			</ul>
 		</td>
 	</tr>
