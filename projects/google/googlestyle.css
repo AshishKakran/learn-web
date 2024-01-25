@@ -1,0 +1,22 @@
+nav ul {
+
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li a {
+	diplay : block;
+	margin: .5em;
+
+}
+
+body {
+	display: grid;
+	grid: 100px 400px 100px;
+}
