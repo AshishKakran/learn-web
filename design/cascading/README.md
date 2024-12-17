@@ -1,3 +1,5 @@
+# Cascading and Inheritance in CSS
+
 Cascading in CSS determines how conflicts are resolved. When facing a styling problem, First, figure out what declaration will get it looking right, and second, think through the possible ways to structure the selectors and choose the one that best fits your needs.
 
 The browser follows these cascading steps to resolve every property for every element on the page. A cascaded value is a value for a particular property applied to an element as a result of the cascade. 
@@ -35,7 +37,7 @@ If you add a declaration to your CSS and it seems to have no effect, often it's 
 		 If all the other criteria are the same, then the declaration that appears later i the stylesheet - or appears in a stylesheet included later on that page - takes precdence.
 		 Selectors for styling links should in a certain order. -> Link, visited, hover, active.
 
-![[Pasted image 20241217111813.png]]
+![[cascadingResolve.png]]
 
 
 ### Inheritance 
