@@ -5,13 +5,13 @@ Cascading in CSS determines how conflicts are resolved. When facing a styling pr
 The browser follows these cascading steps to resolve every property for every element on the page. A cascaded value is a value for a particular property applied to an element as a result of the cascade. 
 
 ### Syntax 
-`
+
 	property : value;
 
 	selector {
 		property: value;  /* These are called declarations */
 	} /* declaration block */
-`
+
 
 selector + declaration => ruleset (rule)
 
@@ -37,7 +37,7 @@ If you add a declaration to your CSS and it seems to have no effect, often it's 
 		 If all the other criteria are the same, then the declaration that appears later i the stylesheet - or appears in a stylesheet included later on that page - takes precdence.
 		 Selectors for styling links should in a certain order. -> Link, visited, hover, active.
 
-![[cascadingResolve.png]]
+![Cascading Flow](./cascadingResolve.png)
 
 
 ### Inheritance 
@@ -63,7 +63,7 @@ Some shorthand properties like `font`, `background`, `border` has subtleties.
 -> Omitting certain values still sets the omitted values to their initial value.
 -> In some shorthand properties like `margin` and `padding`, order is important. If a property specifies two measurements from a corner(like `background-position`, `box-shadow` and `text-shadow`) think "Cartesian grid". If a property specifies measurements for each side all the way around an element, think "Clock" (top, right, bottom, left)
 
-	E.g `margin: margin-top margin-right margin-bottom margin-left;`
+	E.g margin: margin-top margin-right margin-bottom margin-left;
 
 
 ### progressive enhancement
@@ -74,10 +74,10 @@ You can add the CSS needed to provide an acceptable (but less full-featured) exp
 
 We can use feature query @supports to check whether a particular rule is available in a browser or not.
 
-	E.g `@supports (display: grid) {....}`
-		`@supports not (<declaration>)`
-		`@supports (<declaration>) and/or (<declaration>)`
-		`@supports selector(:user-invalid)`
+	E.g 	@supports (display: grid) {....}
+		@supports not (<declaration>)
+		@supports (<declaration>) and/or (<declaration>)
+		@supports selector(:user-invalid)
 
 First provide a fallback option for old browser, followed by a feature query that give a full featured new option. This is resilient CSS. 
 
