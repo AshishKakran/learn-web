@@ -1,4 +1,4 @@
-# Cascading and Inheritance in CSS
+# Units and CSS variables
 ### Relative units
 
 *Length* is the formal name for a CSS value that denotes a distance measurement. Its a number followed by a unit, such as 5px. Percentages are similar to length, but not technically the same thing.
