@@ -1,0 +1,287 @@
+*,
+::before,
+::after {
+        box-sizing: border-box;
+
+        
+}
+
+:root {
+        --gap-size: 1rem;
+        font-size: clamp(0.9rem, 0.6rem + 0.5svw, 1.5rem);
+}
+
+body {
+        margin: unset;
+        font-family: Helvetica, Arial, sans-serif;
+}
+
+
+a:link {
+        color: #1476b8;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+a:visited{
+        color: black;
+}
+
+a:hover {
+        text-decoration: underline;
+}
+
+a:active {
+        color: #b81414;
+}
+
+img {
+	max-inline-size: 100%;
+        display: block;
+}
+
+
+.menu-bar {
+
+	display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+}
+
+#logo1 {
+        align-self: center;
+        padding: 10px;
+
+}
+
+.menu-toggle {
+        background: none;
+        font-size: 1.1rem;
+        border: none;
+}
+
+.menu {
+
+        width: 0%;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        overflow: hidden;
+        padding-top: 30px;
+        padding-left: 0px;
+        transition: 0.4s;
+
+}
+
+.is-open {
+
+        width: 100%;
+        transition: 0.4s;
+}
+
+#close-menu {
+        position: absolute;
+        top: 2em;
+        right: .5em;
+
+}
+
+.nav-menu {
+        display: flex;
+        flex-flow: column  nowrap;
+        align-items: stretch;
+        list-style-type: none;
+        text-transform: uppercase;
+}
+
+.nav-menu li {
+        margin-left: -40px;
+        border-bottom: 1px solid darkgrey;
+        padding: 10px 10px;
+}
+
+
+
+
+main {
+       display: grid;
+       grid-template-rows: 1fr 0px 1fr;
+       grid-template-columns: 0px 1fr 0px;
+       grid-template-areas: "promo promo promo" 
+                             "new new new" 
+                             "empty products empty";
+        gap: var(--gap-size);
+        padding: 0px;
+
+}
+
+.offer {
+        grid-area: span 2 / span 3;
+}
+
+.product-menu {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3 ;
+        display: flex;
+        flex-flow: row wrap;
+}
+
+
+.product {
+        flex: 1 1 0px;
+}
+
+.product figure img {
+        vertical-align: center;
+}
+
+.product p {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: .8rem;
+        margin-top: -10px;
+}
+
+
+.offer {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: var(--gap-size);
+        text-transform: uppercase;
+        background-color: #f495a3;
+}
+
+.offer .slogan.time  {
+        color: #fff;
+        background-color: #27251f;
+        padding: 3px 15px;
+        font-size: .8rem;      
+}
+
+.offer .slogan.detail {
+
+        font-size: 2.5rem;
+        align-self: center;
+
+}
+
+.offer .slogan.wide {
+       font-size: 1.3rem;
+}
+
+.footer {
+        display: flex;
+        flex-flow: row ;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-color: black;
+
+        margin-top: 30px;
+}
+
+.footer .logo {
+        flex: 0 1 30%;
+        padding: 10px 10px;
+
+}
+
+.footer p {
+
+        flex-flow: 0 1 60%;
+        align-self: center;
+        color: #fff;
+        text-align: center;
+        margin-right: 10%;
+}
+
+/*---------------------- bigger screens -----------------*/
+
+@media (min-width : 630px){
+
+
+.menu-bar {
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: stretch;
+        justify-content: unset;
+}
+
+.menu-bar  figure {
+        margin-inline-end: 10px;
+        max-inline-size: 70%;
+}
+
+#logo1 {
+
+        flex: 0 1 100px;
+        padding: 0px;
+
+
+}
+
+.menu-toggle {
+       display: none;
+}
+
+.menu {
+
+        width: initial;
+        height: initial;
+        position: static;
+        padding: 0px;
+        margin: 0;
+}
+
+#close-menu {
+        display: none;
+        width: 0%;
+
+}
+
+.nav-menu {
+        display: flex;
+        margin-left:5%;
+        margin-right: 5%;
+        flex-flow: row  nowrap;
+        justify-content: space-between;
+        align-items: space-between;
+        list-style-type: none;
+        text-transform: uppercase;
+        background-color: #f4f5f4;
+}
+
+.nav-menu li {
+
+        margin: 0px 1px 0px 1px;
+        padding: 5px 10px;
+        border: none;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

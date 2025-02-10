@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mangata</title>
+    <meta name="author" content="Mangata & Gallo">
+    <meta name="description" content="Luxury jewellery for special occasions" >
+    <meta property="og:title" content="Mangta & Gallo Jewellery">
+    <meta property="og:type" content="website">
+    <meta property="og:url " content="http://127.0.0.1:5500/index.html">
+    <meta property="og:image" content="http://127.0.0.1:5500/index.html/images/categories/rings.jpg">
+
+    <style>
+        @import url(styles/main.css)
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id ="header" class="page-header">
+            <div class="menu-bar">
+
+                <figure class="logo" id="logo1">
+                    <img src="images/asset2_3x.png" alt="Mangata"> 
+                </figure>
+                
+                    <button class="menu-toggle" id="open-menu" >
+                        &#9776;
+                    </button>
+                    <nav class="menu" id="main-menu"> 
+
+                        <button class="menu-toggle" id="close-menu"> &#x58; </button>
+
+                    <ul class="nav-menu"> 
+                    <li> <a href="javascript:void(0)"> log in / join now </a></li>
+                    <li> <a href="index.html"> Rings </a> </li> 
+                    <li> <a href="index.html"> Necklaces </a> </li>
+                    <li> <a href="index.html"> Charms & Bracelets </a> </li>
+                    <li> <a href="index.html"> shop </a>  </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+    <main class="main">
+
+        <div class="offer">
+            <span class="slogan time">  Limited time only! </span>
+            <span class="slogan detail"> Enjoy <strong> 25% off </strong> </span>
+            <span class="slogan wide"> sitewide & storewide </span>
+            <span class="slogan time">  shop now </span>
+        </div>
+
+        <div class="product-menu" id="products">
+
+            <div class="product" id="braceletes">
+
+                <img src="images/categories/bracelets.webp" alt="Bracelets">
+                <p> Bracelets </p>
+                
+            </div>
+
+            <div class="product" id="rings">
+                <img src="images/categories/rings.webp" alt="Rings">
+                <p> Rings </p>
+                
+            </div>
+
+            <div class="product" id="necklaces">
+
+             <img src="images/categories/necklaces.webp" alt="Necklaces">
+                <p> Necklaces </p>
+                
+            </div>
+
+            
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <figure class="logo" id="logo2">
+                    <img src="images/asset3_3x.png" alt="Mangata"> 
+        </figure>
+        <p id="copyright"> <small> Copyright &copy; 2024 Mangata & Gallo (educative purpose only) </small> </p>
+    </footer>
+    <script type="text/javascript" >
+    
+    var open = document.getElementById('open-menu');
+    var close = document.getElementById('close-menu');
+    var menu = document.getElementById('main-menu');
+
+    open.addEventListener('click', function(event) {
+
+    event.preventDefault();
+    menu.classList.add('is-open');
+    });
+
+    close.addEventListener('click', function(event){
+        menu.classList.remove('is-open');
+    });
+  
+    </script>
+</div>
+</body>
+</html>

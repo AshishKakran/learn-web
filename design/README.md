@@ -12,5 +12,7 @@
 
 <ol>
 <li> <a href="./flexbox"> CSS layout with flexbox </a> </li>
-<li> <a href-"./grid"> CSS layout with grid </a> </li>
+<li> <a href="./grid"> CSS layout with grid </a> </li>
+<li> <a href="./positioning"> Positioning in CSS </a> </li>
+<li> <a href="./responsive"> Responsive Design </a> </li>
 </ol>
